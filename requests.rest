@@ -1,0 +1,16 @@
+GET http://localhost:3003/character
+
+###
+
+PUT http://localhost:3003/character
+Content-Type: application/json
+
+{
+    "name": "Deadpoll",
+    "gender": "OTHER",
+    "description": "Sexy motherf***"
+}
+
+###
+
+DELETE http://localhost:3003/character/3
